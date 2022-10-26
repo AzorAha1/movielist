@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1037741155225",
+    "project_id": "movielist-5ea82",
+    "storage_bucket": "movielist-5ea82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1037741155225:android:03a2b40ebd991dedcda908",
+        "android_client_info": {
+          "package_name": "com.faiz.movielist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1037741155225-kbje1p88ciulraf2j72eqgfh8gcmfh4k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7iEKVhhgzlysZJ8OwWjGxXDq4vLXXivw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1037741155225-kbje1p88ciulraf2j72eqgfh8gcmfh4k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

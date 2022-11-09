@@ -22,9 +22,9 @@ class _SigninState extends State<Signin> {
   String? email;
   String? password;
   String error = '';
-  User? _user = _auth.currentUser;
+  User? user = _auth.currentUser;
   TextEditingController _controller = TextEditingController();
-  Database db = Database();
+  Database db = Database(uid:'');
   bool loading = false;
   @override
   Widget build(BuildContext context) {
@@ -116,6 +116,7 @@ class _SigninState extends State<Signin> {
                     } else if (res == null) {
                       setState(() {
                         error = 'User not found';
+                        loading = false;
                       });
                     }
                   }
